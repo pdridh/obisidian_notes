@@ -1,9 +1,3 @@
-# to exclude Obsidian's settings (including plugin and hotkey configurations)
-.obsidian/
-
-# to only exclude plugin configuration. Might be useful to prevent some plugin from exposing sensitive data
-.obsidian/plugins
-
 # OR only to exclude workspace cache
 .obsidian/workspace.json
 

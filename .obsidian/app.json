@@ -1,0 +1,11 @@
+{
+  "promptDelete": false,
+  "attachmentFolderPath": "Media/Image",
+  "userIgnoreFilters": [
+    "Template/",
+    "Media/"
+  ],
+  "trashOption": "system",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Main"
+}
