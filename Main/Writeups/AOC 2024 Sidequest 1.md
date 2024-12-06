@@ -1,6 +1,6 @@
-# Advent of Cyber 2024 Sidequest 1
+# AOC 2024 Sidequest 1
 
-**Tags**: [[Cybersecurity]] [[Tech]] [[Writeup]]
+**Tags**: [[Tech]] [[Cybersecurity]] [[Writeup]]
 
 # Summary
 

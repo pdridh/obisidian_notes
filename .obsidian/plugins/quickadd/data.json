@@ -2,10 +2,10 @@
   "choices": [
     {
       "id": "76256766-fa4e-426c-9c2c-813d93001a92",
-      "name": "Add Sec-Writeup",
+      "name": "Add Cybersecurity-Writeup",
       "type": "Template",
       "command": false,
-      "templatePath": "Template/Sec-Writeup Template.md",
+      "templatePath": "Template/Cybersecurity-Writeup Template.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -29,13 +29,107 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "e6827908-4972-4205-bcfd-316b08538582",
+      "name": "Add Cybersecurity-Resource",
+      "type": "Template",
+      "command": false,
+      "templatePath": "Template/Cybersecurity-Resource Template.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Main/Resource"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "cfaaca39-3525-4b42-b0e7-ff8466ff6edc",
+      "name": "Add Tech-Resource",
+      "type": "Template",
+      "command": false,
+      "templatePath": "Template/Tech-Resource Template.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Main/Resource"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "macros": [
     {
       "name": "Add Writeup",
       "id": "156765bc-d652-4c9b-8cfb-29991b6afb7e",
-      "commands": [],
+      "commands": [
+        {
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "fc8dc6e2-9b6f-4a8a-8d75-3160f21f17cc",
+          "choice": {
+            "id": "154963f6-e33c-45c4-9ae3-627914cd35a3",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Template/Tech-Resource Template.md",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": false,
+              "folders": [],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
       "runOnStartup": false
     }
   ],
